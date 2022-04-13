@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>MESESTRANSCURRIDOS</TITLE>
+	</HEAD>
+	<BODY onload="mesestranscurridos();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function mesestranscurridos() {
+				var agniofinal, agnioinicio, meses;
+				document.write("Digite el año de inicio: ",'<BR/>');
+				agnioinicio = Number(prompt());
+				document.write("Digite el año final: ",'<BR/>');
+				agniofinal = Number(prompt());
+				meses = (agniofinal-agnioinicio)*12;
+				document.write("La cantidad de meses transcurridos entre ",agnioinicio," y ",agniofinal," es ",meses," meses.",'<BR/>');
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>
